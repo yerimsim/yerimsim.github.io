@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4.17연습</title>
+    <style>
+    table,th,td{
+             border-collapse: collapse;
+             border:1px solid #000;
+         }
+         p{height: 300px;}
+    </style>
+</head>
+<body>
+    <h1 id="menu1">연습입니다.</h1>
+    <input type="text">
+    <button>버튼</button>
+    <select name="" id="">
+            <option value="">옵션1</option>
+            <option value="">옵션2</option>
+            <option value="">옵션3</option>
+    </select>    
+    
+    <hr>
+    <a href="http://www.naver.com">NAVER</a>
+    <span><b>네이버</b>로 이동합니다.</span>
+
+    <hr>
+    
+    <h1 id="menu2">행복하자</h1>
+    <h2>행복하자</h2>
+    <h3>행복하자</h3>
+    <h4>행복하자</h4>
+    <h5>행복하자</h5>
+
+    <hr>
+
+    내일 <strong>쓸쓸함</strong>과 나의 봅니다. 그러나 지나가는 새겨지는 새워 이름과, 때 가슴속에 위에 하나에 봅니다. <br> 오는 릴케 프랑시스 파란 거외다. 하나에 하나에 못 이름자를 나는 거외다. 너무나 쉬이 이 가난한 지나가는 위에도 계십니다. 어머님, 별빛이 많은 오는 파란 거외다.
+
+    <hr>
+    <b>사람</b>은 인생에 광야에서 안고, <i>위하여서.</i> 아니한 같이 같이, <em>봄바람이다.</em>  <small><del>위하여,</del></small> 사람은 구할 이것이다.
+    영원히 바이며, 얼마나 가는 아니다. 피어나는 사람은 못할 보내는 싶이 할지라도 뿐이다.
+    <div>2<sup>6</sup></div>
+    <div>H<sub>2</sub>O</div>
+
+    <hr>
+    <h2>이동합니다.</h2>
+    <a href="http://www.naver.com" target="_self">현재창에서 열립니다.</a>
+    <a href="http://www.daum.net" target="_blank">새창으로 열립니다.</a>
+    <a href="05텍스트.html">텍스트연습</a>
+
+    <hr>
+    <h2>이미지를 클릭해보세요.</h2>
+    <a href="http://www.naver.com">
+    <img src="네이버.png" width="100" height="58" alt="네이버">
+    </a>
+   <hr>
+   <h2 id="menu3">랜덤이미지입니다.</h2>
+   <img src="https://picsum.photos/500/300/?random" alt="">
+
+    <hr>
+    <h2 id="menu">문단으로 이동이 <ins>가능합니다.</ins></h2>
+    <ul>
+        <li><a href="#p1">문단1</a></li>
+        <li><a href="#p2">문단2</a></li>
+        <li><a href="#p3">문단3</a></li>
+        <li><a href="#p4">문단4</a></li>
+        <li><a href="#p5">문단5</a></li>
+        <li><a href="#p6">문단6</a></li>
+    </ul>
+    <!-- p[id=p$]*6{문단$} -->
+    <p id="p1">문단1 <a href="#menu1">맨위로가기</a></p>
+    <p id="p2">문단2 <a href="#menu2">행복하자로</a></p>
+    <p id="p3">문단3 <a href="#menu3">랜덤이미지로</a></p>
+    <p id="p4">문단4 <a href="#menu">문단으로가기</a></p>
+    <p id="p5">문단5 <a href="#menu4">하트3개</a></p>
+    <p id="p6">문단6 <a href="#menu5">오늘의날씨</a></p>
+    <hr>
+    <h2 id="menu4">하트 3개를 클릭해보세요</h2>
+    <img src="어피치.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="_blank" alt="카카오" title="카카오" href="https://store.kakaofriends.com/kr/index" coords="118,505,160,511,181,451,163,434,150,436,102,459,88,475" shape="poly">
+        <area target="_blank" alt="네이버" title="네이버" href="http://www.naver.com" coords="153,361,137,354,123,364,149,397,173,383,179,369,167,353" shape="poly">
+        <area target="_blank" alt="다음" title="다음" href="http://www.daum.net" coords="286,238,270,228,255,242,268,266,280,273,299,265,304,257,311,244,297,230" shape="poly">
+    </map>
+
+    <hr>
+    <table>
+        <caption id="menu5">오늘의 날씨</caption>
+        <tr>
+            <th>지역</th>
+            <th>현재기온</th>
+            <th>불쾌지수</th>
+            <th>습도(%)</th>
+            <th>풍속(m/s)</th>
+        </tr>
+        <tr>
+            <td>서울</td>
+            <td>23</td>
+            <td>60</td>
+            <td>80</td>
+            <td>4.7</td>
+        </tr>
+        <tr>
+            <td>경기도</td>
+            <td>20</td>
+            <td>60</td>
+            <td>80</td>
+            <td>5.0</td>
+        </tr>
+        <tr>
+            <td>제주도</td>
+            <td>21</td>
+            <td>65</td>
+            <td>85</td>
+            <td>3.6</td>
+        </tr>
+    </table>
+    <table>
+        <caption>투자별 매매동향</caption>
+        <tr>
+            <th rowspan="2">구분</th>
+            <th colspan="3">매매수량</th>
+            <th colspan="3">매도수량</th>
+            <th rowspan="2">합계</th>
+            <th rowspan="2">순매수</th>
+        </tr>
+        <tr>
+            <th>신규</th>
+            <th>환매</th>
+            <th>소개</th>
+            <th>신규</th>
+            <th>환매</th>
+            <th>소개</th>
+        </tr>
+        <tr>
+            <th>선물회사</th>
+            <td>47</td>
+            <td>6</td>
+            <td>53</td>
+            <td>6</td>
+            <td>42</td>
+            <td>48</td>
+            <td>101</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <th>증권회사</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th>은행</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th>투자신탁</th>
+            <td>0</td>
+            <td>84</td>
+            <td>84</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>149</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <th>보험회사</th>
+            <td>0</td>
+            <td>84</td>
+            <td>84</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th>합계</th>
+            <td>47</td>
+            <td>90</td>
+            <td>137</td>
+            <td>6</td>
+            <td>42</td>
+            <td>48</td>
+            <td>250</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+</body>
+</html>
